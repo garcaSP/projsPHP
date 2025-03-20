@@ -5,6 +5,6 @@
     $php2 = (int)$php1;
 
     $php3 = 10;
-    $php4 = php2 <= php3;
-    
+    $php4 = ($php2 <= $php3)? ("Menor igual"):("Maior");
+    echo "$php4";
 ?>
